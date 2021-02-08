@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #969696;
+}
+
+p {
+    color: #E93610;
+}
+
+a {
+    font-size: 24px;
+    color: #44F936;
+    margin: 6px;
+}
+
+a:hover {
+    color: #FA8072;
+}
+
+h1 {
+    color: #FA8072;
+}
+
+h3 {
+    color: #6495ED;
+}
+
+h4 {
+    color: #EE9019 !important;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+span {
+    color: #D0D0D0;
+}
+
+.tarminal {
+    width: 600px;
+    height: 400px;
+    background-color: #050303;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.inner-border {
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.inner-border>h4 {
+    position: absolute;
+    left: 45%;
+}
+
+.inner-border>div {
+    background-color: white;
+    margin: 4px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.inner-border>div:nth-child(1) {
+    background-color: #E93610 !important;
+}
+
+.inner-border>div:nth-child(2) {
+    background-color: #F9E136 !important;
+}
+
+.inner-border>div:nth-child(3) {
+    background-color: #44F936 !important;
+}
+
+.tarminal-msg {
+    text-align: center;
+}
+
+.tarminal-box {
+    width: 600px;
+    height: 350px;
+    overflow-y: scroll;
+}
+
+.tarminal-inpute {
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.tarminal-inpute>p {
+    margin-right: 5px;
+    color: #C50003;
+}
+
+.tarminal-inpute>p>span {
+    color: #2ECC71;
+}
+
+.tarminal-inpute>input {
+    width: 60%;
+    font-size: 16px;
+    border: none;
+    color: #E93610;
+    background-color: #050303;
+}
+
+.tarminal-inpute>input:focus {
+    outline: none;
+}
+
+#help {
+    display: none;
+}
+
+#help>h4:nth-child(even) {
+    color: yellow !important;
+}
+
+#home {
+    display: none;
+}
+
+#about {
+    display: none;
+}
+
+#about>h4:nth-child(odd) {
+    color: yellow !important;
+}
+
+#skills {
+    display: none;
+}
+
+#skills>h4:nth-child(even) {
+    color: yellow !important;
+}
+
+.portfolio {
+    display: none;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.col {
+    width: 50%;
+    padding: 4px;
+    margin: 4px;
+    background-color: #050303;
+    box-shadow: 4px 4px 4px 4px #535151;
+}
+
+#contact {}
