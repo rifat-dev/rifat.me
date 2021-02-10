@@ -110,7 +110,7 @@ span {
 }
 
 .tarminal-inpute>input {
-    width: 60%;
+    width: 70%;
     font-size: 16px;
     border: none;
     color: #E93610;
@@ -167,4 +167,48 @@ span {
     box-shadow: 4px 4px 4px 4px #535151;
 }
 
-#contact {}
+#contact {
+    display: none;
+}
+
+#contact>h4:nth-child(even) {
+    color: yellow !important;
+}
+
+@media only screen and (max-width: 450px) {
+    body {
+        margin: 30px;
+    }
+    .tarminal {
+        width: 100%;
+        height: 400px;
+    }
+    .tarminal-box {
+        width: 100%;
+        height: 350px;
+        overflow-y: scroll;
+    }
+    .tarminal-inpute {
+        margin-bottom: 6px;
+        display: block;
+    }
+    .tarminal-inpute>input {
+        font-size: 16px;
+        border: none;
+        color: #E93610;
+        background-color: #050303;
+    }
+    .tarminal-inpute>input:focus {
+        outline: none;
+    }
+    .inner-border>h4 {
+        position: absolute;
+    }
+    .row {
+        display: block;
+    }
+    .col {
+        width: 80%;
+        margin: 30px;
+    }
+}
