@@ -190,7 +190,8 @@ span {
         display: block;
     }
     .tarminal-inpute>input {
-        font-size: 16px;
+        font-size: 14px;
+        width: 100%;
         border: none;
         color: #E93610;
         background-color: #050303;
